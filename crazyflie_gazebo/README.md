@@ -65,7 +65,7 @@ The ghosts can also be added once gazebo has started if you want to visualize ta
 ### Using a joystick in simulation
 When the gyrobias message has been received, you can use a joystick to control the crazylfie. This can be done by typing this in a console:
 ```sh
-roslaunch crazylfie_gazebo joy_launch.launch cfPrefix:=cf1 positionTopic:=local_position 
+roslaunch crazyflie_gazebo joy_launch.launch cfPrefix:=cf1 positionTopic:=local_position 
 ```
 Then FIRST press start button to 'arm motor' and then be technically able to use the joystick to control the crazyflie :
 * Start : Arm the motors -> Always required after launching the node
